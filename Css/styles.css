@@ -1,5 +1,5 @@
 body {
-    background-color: #b4b4b4;
+    background-color: white;
 }
 
 .nav {
@@ -41,3 +41,64 @@ body {
     background-color: #7944b3;
     color: #ff6600;
 } */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.form-register {
+	width: 400;
+	background: #24303c;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.controls {
+	width: 100%;
+	background: #24303c;
+	padding: 10px;
+        color: white;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid white;
+	font-family: 'calibri';
+	font-size: 18px;
+}
+
+.form-register p {
+	height: 70px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 90%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 10px 0;
+    font-size: 16px;
+}

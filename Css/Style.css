@@ -95,4 +95,6 @@ ul {
 
 .btn:hover{
     opacity: .7;
+    background-color: #ff0000;
+	border-color: 4d148c;
 }
