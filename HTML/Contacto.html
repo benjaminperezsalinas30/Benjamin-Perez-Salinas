@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto</title>
+    
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script><link href="styles.css" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="../Css/Estilo.css">
+    <link rel="stylesheet" href="../Css/font-awesome.css">
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+  <form action="./Contacto.php" method="post"></form>
+    <header>
+        <div class="inner-width">
+         <img src="../Imagenes/Logo2.png" style="height: 50px;" alt=""></a>
+           <i class="menu-toggle-btn fas fa-bars"></i>
+           <nav class="navigation-menu">
+              <a href="../Index.html"><i class="fas fa-home home"></i>Inicio</a>
+              <a href="Documento1.html"><i class="fas fa-align-left About"></i> Acerca de ARMADYNE</a>
+              <a href="./Contacto.html"><i class="fas fa-headset contact"></i> Contacto</a>
+              <a href="./documento.html"><i class="fab fa-buffer works"></i>Informacion</a>
+              <a href="./index.html"><i class="fas fa-users team"></i>Iniciar Sesion</a>
+           </nav>
+        </div>
+      </header>
+
+    <section class="form_wrap">
+
+        <section class="cantact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACION<br>DE CONTACTO</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope"></span> info.ARMADYNE@gmail.com</p>
+                <p><span class="fa fa-mobile"></span> 591-29839294</p>
+            </section>
+        </section>
+
+        <form action="enviar.php" method="post" class="form_contact">
+            <h2>Envia un mensaje</h2>
+            <div class="user_info">
+                <label for="names">Nombres *</label>
+                <input type="text" id="names" name="nombre" required>
+
+                <label for="phone">Telefono / Celular</label>
+                <input type="text" id="phone" name="telefono">
+
+                <label for="email">Correo electronico *</label>
+                <input type="text" id="email" name="correo" required>
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <input type="submit" value="Enviar Mensaje" id="btnSend">
+            </div>
+        </form>
+
+    </section>
+
+</body>
+</html>
