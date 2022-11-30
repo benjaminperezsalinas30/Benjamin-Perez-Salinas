@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage using div</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .header{
+            padding: 10px;
+            background-color: #455e64;
+            text-align: center;
+        }
+        .header h2{
+            color: black; 
+        }
+        .nav{
+            background-color: #243238;
+            padding: 5px;
+        }
+
+        .nav li{
+            list-style: none;
+            display: inline-block;
+            padding: 8px;
+        }
+        .nav a{
+            color: #fff;
+        }
+
+        .nav ul li a:hover{
+            text-decoration: none;
+            color: 7fffd4;
+        }
+        .Iside{
+            float: left;
+            width: 80%;
+            min-height: 440px;
+            background-color: #f0f9ff;
+            text-align: center;
+        }
+        .rside{
+            text-align: center;
+            float: right;
+            width: 20%;
+            min-height: 440px;
+            background-color: #c1cdcd;
+        }
+        .footer{
+            height: 44px;
+            background-color: #455e64;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        .footer p{
+            color: #8fbc8f;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <h2>Javatpoint Div Layout</h2>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li style="float: right;"><a href="#">Login</a></li>
+                <li style="float: right;"><a href="#">Sign-Up</a></li>
+            </ul>
+        </div>
+        <div style="height:440px">
+            <div class="Iside">
+                <p>Write your content here</p>
+            </div>
+            <div class="rside">
+                <p>This is side</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>@<strong>Copyright javaTpoint.com</strong></p>
+        </div>
+    </div>
+</body>
+</html>
